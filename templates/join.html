@@ -10,11 +10,13 @@
 <body>
     <h3>회원가입</h3>
     <hr/>
-    아이디 :  <input type="text" /><br />
-    암호 :  <input type="password" /><br />
+    <form action="/join" method="post">
+    아이디 :  <input type="text" name="id"/><br />
+    암호 :  <input type="password" name="pw"/><br />
     암호1 :  <input type="password" /><br />
-    이름 :  <input type="text" /><br />
-    나이 :  <input type="text" /><br />
+    이름 :  <input type="text" name="name"/><br />
+    나이 :  <input type="text" name="age"/><br />
     <input type="submit" value="회원가입" />
+    </form>
 </body>
 </html>
